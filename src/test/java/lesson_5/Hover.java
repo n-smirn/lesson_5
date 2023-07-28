@@ -13,10 +13,9 @@ public class Hover {
     @BeforeAll
     static void beforeAll() {
         Configuration.browser = "chrome";
-        Configuration.baseUrl = "https://github.com";
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1920x1080";
-        Configuration.holdBrowserOpen = true;
+        //Configuration.holdBrowserOpen = true;
     }
 
     @Test
